@@ -32,7 +32,12 @@ public class Person5 {
 	private String calc(String input) {
 	  
 	  String str = input;
-	  
+	  char one = str.charAt(0);
+	  char two = str.charAt(1);
+	  str = str.substring(2);
+	  str = str + one + two;
+
+	  return str;
 
 	}
 	
